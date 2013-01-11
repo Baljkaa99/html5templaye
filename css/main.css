@@ -1,0 +1,464 @@
+/*
+ * HTML5 Boilerplate
+ *
+ * What follows is the rest of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection declarations have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
+ */
+
+img {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Chrome Frame prompt
+   ========================================================================== */
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Image replacement
+ */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback */
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 100%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   Theses examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+       only screen and (min-resolution: 144dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+@font-face {
+				font-family: 'LeagueGothic-CondensedRegular';
+				src: url('http://aakashohri.com/Railyard/scripts/fonts/leg_condensed/leaguegothiccondensedregular.eot');
+				src: url('http://aakashohri.com/Railyard/scripts/fonts/leg_condensed/leaguegothiccondensedregular.eot?#iefix') format('embedded-opentype'),
+						 url('http://aakashohri.com/Railyard/scripts/fonts/leg_condensed/leaguegothiccondensedregular.woff') format('woff'),
+						 url('http://aakashohri.com/Railyard/scripts/fonts/leg_condensed/leaguegothiccondensedregular.ttf') format('truetype'),
+						 url('http://aakashohri.com/Railyard/scripts/fonts/leg_condensed/leaguegothiccondensedregular.svg#leaguegothiccondensedregular') format('svg');
+				font-weight: normal;
+				font-style: normal;
+		}
+
+.clearfix:after { content: ".";display: block;height: 0;clear: both;visibility: hidden; }
+body{background: #211c11;}
+section#main_content{ background:url("http://aakashohri.com/Railyard/img/bg.jpg") no-repeat scroll 0 0 #32291B;margin: 0 auto;width: 1064px; padding-top: 175px; }
+section.optin_ticket{background:url('http://aakashohri.com/Railyard/img/ticket.png');margin:0 auto;width:784px;height:447px;left:-225px;position:relative;opacity:0;}
+footer{background:url('http://aakashohri.com/Railyard/img/footer-bg.png'); width:100%; padding-top: 40px; height: 182px; }
+section.social_strip ul li a{display: block; background: url('http://aakashohri.com/Railyard/img/sprite.png');  text-indent: -999em; background-repeat: no-repeat; width: 69px; height: 87px; }
+section.social_strip ul li{display: inline-block;}
+
+section.social_strip ul li:nth-child(1) a{ background-position: 0 -967px;  }
+section.social_strip ul li:nth-child(1) a:hover{ background-position:   0 -829px; }
+
+section.social_strip ul li:nth-child(2) a{ background-position:  -5px -139px; }
+section.social_strip ul li:nth-child(2) a:hover{ background-position:   -5px -1px; }
+
+section.social_strip ul li:nth-child(3) a{ background-position:  -10px -276px; }
+section.social_strip ul li:nth-child(3) a:hover{ background-position:   -10px -414px; }
+
+section.social_strip ul li:nth-child(4) a{ background-position:  -13px -691px; }
+section.social_strip ul li:nth-child(4) a:hover{ background-position:   -13px -553px; }
+
+section.social_strip ul li:nth-child(5) a{ background-position: -10px -1242px; }
+section.social_strip ul li:nth-child(5) a:hover{ background-position:   -10px -1104px; }
+
+section.social_strip {margin: 0 auto;width: 1065px;}
+
+.arrival_text {
+    color: #8B0101;
+    float: right;
+    font-family: 'Ubuntu Condensed',sans-serif;
+    font-size: 25px;
+    letter-spacing: -1px;
+    line-height: 30px;
+    position: relative;
+    right: 90px;
+    top: 98px;
+    width: 50%;
+}
+
+.big_signuptext {
+    color: #8B0101;
+    font-family: 'Cabin Condensed',sans-serif;
+    font-size: 32px;
+    left: 300px;
+    line-height: 12px;
+    position: relative;
+    top: 172px;
+    width: 48%;
+}
+section.optin_ticket form {
+    left: 302px;
+    position: absolute;
+    top: 202px;
+    width: 51.5%;
+}
+section.optin_ticket form input[type="email"]{background:none repeat scroll 0 0 rgba(255, 255, 255, 0.3);border:medium none;-webkit-box-shadow:3px 2px 5px rgba(3, 4, 4, 0.75) inset;box-shadow:3px 2px 5px rgba(3, 4, 4, 0.75) inset;float:left;padding:6px 10px;position:relative;top:17px;width:205px;font-family:'Ubuntu Condensed',sans-serif;color:#660000;font-size:24px;-webkit-transition:all 0.1.5s ease;-moz-transition:all 0.1.5s ease;-o-transition:all 0.1.5s ease;-ms-transition:all 0.1.5s ease;transition:all 0.1.5s ease;}
+section.optin_ticket form input[type="email"]:focus{font-size:18px; text-transform: capitalize; padding: 9px 10px;behavior: url(http://aakashohri.com/Railyard/PIE.htc);}
+.optin_hand {
+    background: url("http://aakashohri.com/Railyard/img/optin_hand.png") no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 27px;
+    position: relative;
+    top: 22px;
+    width: 56px;
+}
+section.optin_ticket form input[type="submit"]  {
+    background: url("http://aakashohri.com/Railyard/img/submit.png") no-repeat scroll 0 0 transparent;
+    border: medium none;
+    display: block;
+    float: left;
+    height: 58px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    right: -21px;
+    text-indent: -999em;
+    top: 6px;
+    width: 121px; 
+}
+.static_poster {
+    background: url("http://aakashohri.com/Railyard/img/date-pickerbg.png") repeat scroll 0 0 transparent;
+    height: 50px;
+    width: 311px;
+}
+#countdown {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #660000;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px 1px 1px 2px;
+    color: #660000;
+    float: left;
+    font-size: 33px;
+    margin-left: -45px;
+    position: relative;
+    text-align: center;
+    top: 0px;
+    width: 45px;
+    border-right: none;
+    background: url('http://aakashohri.com/Railyard/img/ticker_bg.png');
+    height: 49px; padding-top: 4px;
+}
+#rolling_date {
+    left: 348px;
+    position: absolute;
+    top: 272px;
+    z-index: 7;
+}
+ul.below_optin li {
+    display: inline-block;
+    color: #dabc84;
+    font-family: 'Ubuntu Condensed',sans-serif;
+    font-size: 25px;
+    margin-right: 50px;
+}
+ul.below_optin li:before {
+    content: '.';
+    position: relative;
+    bottom: 6px;
+}
+ul.below_optin li:nth-child(1):before{ content: none; }
+.social_strip ul { width: 40%; float: right; }
+
+
+@-webkit-keyframes optin_bounce {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-moz-keyframes optin_bounce {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-o-keyframes optin_bounce {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes optin_bounce {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+section.optin_ticket {
+	-webkit-animation-name: optin_bounce;
+	-webkit-animation-duration: 2.5s;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-direction: normal;
+	-webkit-animation-delay: 1s;
+	-webkit-animation-play-state: running;
+	-webkit-animation-fill-mode: forwards;
+	
+	-moz-animation-name: optin_bounce;
+	-moz-animation-duration: 2.5s;
+	-moz-animation-timing-function: ease;
+	-moz-animation-iteration-count: 1;
+	-moz-animation-direction: normal;
+	-moz-animation-delay: 1s;
+	-moz-animation-play-state: running;
+	-moz-animation-fill-mode: forwards;
+	
+	animation-name: optin_bounce;
+	animation-duration: 2.5s;
+	animation-timing-function: ease;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	animation-delay: 1s;
+	animation-play-state: running;
+	animation-fill-mode: forwards;
+	
+}

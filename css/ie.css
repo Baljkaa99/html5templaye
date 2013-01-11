@@ -1,0 +1,10 @@
+section.optin_ticket{opacity: 1;}
+section.optin_ticket form input#mce-EMAIL{background:none repeat scroll 0 0 rgba(255, 255, 255, 0.3);border:medium none;-webkit-box-shadow:3px 2px 5px rgba(3, 4, 4, 0.75) inset;
+-moz-box-shadow:3px 2px 5px rgba(3, 4, 4) inset;
+-webkit-box-shadow:3px 2px 5px rgba(3, 4, 4) inset;
+-ms-box-shadow:3px 2px 5px rgba(3, 4, 4) inset;
+box-shadow:3px 2px 5px rgba(3, 4, 4) inset;
+box-shadow:3px 2px 5px rgba(3, 4, 4, 0.75) inset;
+
+float:left;padding:6px 10px;position:relative;top:17px;width:205px;font-family:'Ubuntu Condensed',sans-serif;color:#660000;font-size:24px;-webkit-transition:all 0.1.5s ease;-moz-transition:all 0.1.5s ease;-o-transition:all 0.1.5s ease;-ms-transition:all 0.1.5s ease;transition:all 0.1.5s ease;behavior: url(http://aakashohri.com/Railyard/PIE.htc); }
+section.optin_ticket form input#mce-EMAIL{border: 1px solid #660000;}

@@ -1,0 +1,90 @@
+section#main_content{ background-size: 100% 100%; width:100%; }
+section.optin_ticket{ left:0%; width:100%; background-size: 100% 100%; }
+section.social_strip{ width:100%; }
+.social_strip ul{ width:100%; }
+ul.below_optin {
+    margin: 0 auto;
+    padding-left: 0;
+    text-align: center;
+}
+ul.below_optin li {
+    display: block;
+    float: none;
+    font-size: 24px;
+    margin-right: 0;
+}
+ul.below_optin li:nth-child(1){font-weight: bold;}
+.arrival_text {
+    font-size: 0.7em;
+    letter-spacing: 1px;
+    line-height: 12px;
+    right: 12%;
+    top: 100px;
+}
+section.optin_ticket form input[type="email"]{font-size: 20px;}
+.big_signuptext {
+    font-size: 0.9em;
+    left: 38%;
+    line-height: 22px;
+    position: absolute;
+    top: 152px;
+    width: 58%;
+}
+.optin_hand {
+    background: url("http://aakashohri.com/Railyard/img/optin_hand.png") no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 27px;
+    left: 0;
+    position: relative;
+    top: 38px;
+    width: 56px;
+}
+section.optin_ticket form{ left: 38%;top: 162px;}
+section.optin_ticket form input[type="email"]{width:100%;}
+section.optin_ticket form input[type="submit"] {
+    background-size: 100% 85%;
+    left: 0;
+    right: -5px;
+    top: 22px;
+    width: 45%;
+}
+#rolling_date {
+    height: 50px;
+    left: 39%;
+    position: absolute;
+    top: 274px;
+    width: 6%;
+    z-index: 7;
+}
+.static_poster{display: none; }
+#countdown {
+   
+    background-size: 100% 100%;
+        font-size: 0.9em;
+    height: 100%;
+    
+    top: 0;
+    width: 100%; margin-left: 0px;
+}
+.social_strip ul {
+    margin-left: 0;
+    padding-left: 0;
+    width: 100%;
+}
+section.social_strip ul li a{width:55px;}
+
+
+section.social_strip ul li:nth-child(1) a{background: url('http://aakashohri.com/Railyard/img/mobile/twitter.png'); }
+section.social_strip ul li:nth-child(1) a:hover{background-position: 0 0;}
+
+section.social_strip ul li:nth-child(2) a{background: url('http://aakashohri.com/Railyard/img/mobile/fb.png'); }
+section.social_strip ul li:nth-child(2) a:hover{background-position: 0 0;}
+
+section.social_strip ul li:nth-child(3) a{background: url('http://aakashohri.com/Railyard/img/mobile/g+.png'); }
+section.social_strip ul li:nth-child(3) a:hover{background-position: 0 0;}
+
+section.social_strip ul li:nth-child(4) a{background: url('http://aakashohri.com/Railyard/img/mobile/pintrest.png'); }
+section.social_strip ul li:nth-child(4) a:hover{background-position: 0 0;}
+
+section.social_strip ul li:nth-child(5) a{background: url('http://aakashohri.com/Railyard/img/mobile/utube.png'); }
+section.social_strip ul li:nth-child(5) a:hover{background-position: 0 0;}

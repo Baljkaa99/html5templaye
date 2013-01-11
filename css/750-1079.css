@@ -1,0 +1,6 @@
+section#main_content{ background-size: 100% 100%; width:100%; }
+section.optin_ticket{ left:-3%; }
+section.social_strip{ width:100%; }
+.social_strip ul {float: none;margin: 0 auto;width: 60%;}
+ul.below_optin {float: right;margin-left: 0;padding-left: 0;width: 90%;}
+ul.below_optin li { margin-right: 25px; font-size: 20px; }

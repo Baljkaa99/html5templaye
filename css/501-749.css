@@ -1,0 +1,56 @@
+section#main_content{ background-size: 100% 100%; width:100%; }
+section.optin_ticket{ left:-3%; width:100%; background-size: 100% 100%; }
+section.social_strip{ width:100%; }
+.social_strip ul {float: none;margin: 0 auto;width: 87%;}
+ul.below_optin { margin-left: 0px; padding-left: 10px; }
+ul.below_optin li { margin-right: 25px; font-size: 20px; }
+.arrival_text {
+    font-size: 1.2em;
+    line-height: 22px;
+    right: 12%;
+    top: 100px;
+}
+.big_signuptext {
+    font-size: 1.5em;
+    left: 38%;
+    line-height: 16px;
+    position: absolute;
+    top: 149px;
+    width: 56%;
+}
+.optin_hand {
+    background: url("http://aakashohri.com/Railyard/img/optin_hand.png") no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 27px;
+    left: 22%;
+    position: relative;
+    top: 38px;
+    width: 56px;
+}
+section.optin_ticket form{ left: 38%;top: 162px;}
+section.optin_ticket form input[type="email"]{width:100%;}
+section.optin_ticket form input[type="submit"] {
+    background-size: 100% 80%;
+    left: 24%;
+    right: -5px;
+    top: 22px;
+    width: 35%;
+}
+#rolling_date {
+    height: 50px;
+    left: 39%;
+    position: absolute;
+    top: 274px;
+    width: 6%;
+    z-index: 7;
+}
+.static_poster{display: none; }
+#countdown {
+   
+    background-size: 100% 100%;
+        font-size: 1.7em;
+    height: 100%;
+    
+    top: 0;
+    width: 100%; margin-left: 0px;
+}
